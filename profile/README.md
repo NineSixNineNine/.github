@@ -132,11 +132,12 @@ Andante는 이러한 문제를 해결하기 위해 **연습 공유 & 피드백, 
   - 여러 개의 **Consumer(유사도 분석 서버)** 가 병렬로 작업하여 성능 최적화.  
 
 #### 🔵 **유사도 분석 AI (Python)**
-- **Librosa, NumPy, TensorFlow 등의 라이브러리를 사용하여 유사도 분석** 수행.  
-- **유사도 분석 로직**  
-  1. **Onset Detect & Beat Tracking**: 템포 분석.  
-  2. **Pitch Detection**: 피치 비교.  
-  3. **MFCC & Mel-spectrogram 분석**: 음색 차이 최소화.  
+- **Librosa, Numpy 등의 라이브러리를 사용하여 유사도 분석** 수행.
+- **빠른 실시간 처리**, **구간 별 유사도** 등을 통해 유저 경험을 개선   
+- **유사도 분석 방법론**  
+  1. **Onset Detect**: 템포 분석.
+  2. **Chroma, Piptrack**: 피치 분석.  
+  3. **DTW(Dynamic time warping), Overlap**: 시간 축 보정.
 
 - 분석 결과는 **Redis Stream을 통해 전달**되고, 이후 백엔드(Spring Boot)가 최종 결과를 클라이언트(React)로 전송.  
 
