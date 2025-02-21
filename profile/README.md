@@ -80,6 +80,11 @@ Andante는 이러한 문제를 해결하기 위해 **연습 공유 & 피드백, 
 
 ---
 
+## 🎮 시연 영상  
+| UpLoding |  |
+|:------:|:------:
+| <img src="https://github.com/user-attachments/assets/57b9f310-3fd1-40da-a08e-9a022d77eb5e" alt="Andante_업로드" width="500"> |  |
+
 
 ## 🏗️ 시스템 아키텍처  
 
