@@ -1,5 +1,6 @@
 # 🎵 Andante - 악기 연습을 위한 SNS 플랫폼
-
+기간 1월 6일 ~ 2월 21일
+<br>
 <a href="https://www.adte.site/" target="_blank">
 <img src="https://github.com/user-attachments/assets/6e382b3d-e578-4139-8163-5ca022566f81" alt="" width="800">
 </a>
